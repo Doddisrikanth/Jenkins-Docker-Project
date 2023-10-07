@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-
 # Update package lists and install necessary packages
 RUN apt-get update && \
     apt-get install -y apache2 unzip
@@ -19,7 +18,6 @@ EXPOSE 80
  
  
 # FROM  centos:latest
-# MAINTAINER vikashashoke@gmail.com
 # RUN yum install -y httpd \
 #  zip\
 #  unzip
