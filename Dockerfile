@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-MAINTAINER vikashashoke@gmail.com
 
 # Update package lists and install necessary packages
 RUN apt-get update && \
